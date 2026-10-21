@@ -3,14 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anketa o zadovoljstvu posjetilaca kartodroma</title>
+  <title>Anketa</title>
 </head>
 <body>
     <section id="anketa">
-      <form action="#" method="post">
-        <fieldset>
           <p>Podaci o posjetiocu</p>
-
           <p>
             <label for="ime">Ime ili nadimak:</label><br>
             <input type="text" id="ime" name="ime" placeholder="npr. Emir">
@@ -26,9 +23,6 @@
               <option value="samostalno">Samostalna vožnja</option>
             </select>
           </p>
-        </fieldset>
-
-        <fieldset>
           <p>Ocjena ukupnog iskustva na stazi</p>
 
           <input type="radio" id="ocjena-1" name="ocjena" value="1">
@@ -45,10 +39,10 @@
 
           <input type="radio" id="ocjena-5" name="ocjena" value="5">
           <label for="ocjena-5">5 – Odlično</label>
-        </fieldset>
 
-        <fieldset>
-          <p>Koje ste sadržaje koristili? (možete odabrati više)</p>
+
+        
+          <p>Koje ste sadržaje koristili?</p>
 
           <input type="checkbox" id="sadrzaj-karting" name="sadrzaj" value="karting">
           <label for="sadrzaj-karting">Karting</label><br>
@@ -61,8 +55,7 @@
 
           <input type="checkbox" id="sadrzaj-paintball" name="sadrzaj" value="paintball">
           <label for="sadrzaj-paintball">Paintball</label>
-        </fieldset>
-      </form>
+
     </section>
 </body>
 </html>
