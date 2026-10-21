@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anketa o zadovoljstvu posjetilaca kartodroma</title>
+</head>
+<body>
+    <section id="anketa">
+      <form action="#" method="post">
+        <fieldset>
+          <p>Podaci o posjetiocu</p>
+
+          <p>
+            <label for="ime">Ime ili nadimak:</label><br>
+            <input type="text" id="ime" name="ime" placeholder="npr. Emir">
+          </p>
+
+          <p>
+            <label for="povod">Povod posjete:</label><br>
+            <select id="povod" name="povod">
+              <option value="druzenje">Druženje s prijateljima</option>
+              <option value="rodjendan">Rođendan</option>
+              <option value="teambuilding">Teambuilding</option>
+              <option value="takmicenje">Takmičenje ili trening</option>
+              <option value="samostalno">Samostalna vožnja</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <p>Ocjena ukupnog iskustva na stazi</p>
+
+          <input type="radio" id="ocjena-1" name="ocjena" value="1">
+          <label for="ocjena-1">1 – Veoma loše</label><br>
+
+          <input type="radio" id="ocjena-2" name="ocjena" value="2">
+          <label for="ocjena-2">2 – Loše</label><br>
+
+          <input type="radio" id="ocjena-3" name="ocjena" value="3" checked>
+          <label for="ocjena-3">3 – Prosječno</label><br>
+
+          <input type="radio" id="ocjena-4" name="ocjena" value="4">
+          <label for="ocjena-4">4 – Dobro</label><br>
+
+          <input type="radio" id="ocjena-5" name="ocjena" value="5">
+          <label for="ocjena-5">5 – Odlično</label>
+        </fieldset>
+
+        <fieldset>
+          <p>Koje ste sadržaje koristili? (možete odabrati više)</p>
+
+          <input type="checkbox" id="sadrzaj-karting" name="sadrzaj" value="karting">
+          <label for="sadrzaj-karting">Karting</label><br>
+
+          <input type="checkbox" id="sadrzaj-cafe" name="sadrzaj" value="cafe">
+          <label for="sadrzaj-cafe">Go-Kart Cafe</label><br>
+
+          <input type="checkbox" id="sadrzaj-restoran" name="sadrzaj" value="restoran">
+          <label for="sadrzaj-restoran">Restoran</label><br>
+
+          <input type="checkbox" id="sadrzaj-paintball" name="sadrzaj" value="paintball">
+          <label for="sadrzaj-paintball">Paintball</label>
+        </fieldset>
+      </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vodič: Prijateljska karting trka za početnike</title>
+</head>
+<body>
+  <header>
+    <h1>Prijateljska karting trka za početnike</h1>
+    <p><strong>Namijenjeno:</strong> rekreativcima i grupama prijatelja koji se prvi put vozaju na kartodromu, kao i mladima uz saglasnost roditelja ili staratelja.</p>
+  </header>
+  <main>
+    <img
+      src=nova-staza-1024x576.webp
+      alt="Ilustracija krivudave karting staze iz ptičje perspektive sa startno-ciljnom linijom">
+
+    <section id="o-dogadjaju">
+      <h2>O događaju</h2>
+      <p>
+        Prijateljska karting trka za početnike je druženje na kojem svaki učesnik
+        dobija priliku da se provoza i takmiči sa ostalima u grupi. Događaj se održava
+        na profesionalnom kartodromu Autokomerc Karting Centar, koji nudi karting
+        staze za odrasle i za mlađe vozače (Junior karting).
+        Prije vožnje svi učesnici dobijaju instrukcije od stručnog osoblja i potpisuju
+        saglasnost s pravilima staze.
+      </p>
+      <p>
+        Vrijeme se mjeri sistemom Mylaps X2, koji koristi transpondere na kartovima.
+        Važno je znati da se prvi i posljednji krug ne mjere, pa zbir izmjerenih
+        vremena ne iznosi cijelih deset minuta vožnje. Nakon trke možete se
+        osvježiti u Go-Kart Cafeu i s tribina pratiti ostale grupe.
+      </p>
+
+      <h3>Šta trebate znati prije dolaska</h3>
+      <ul>
+        <li>Maloljetni učesnici moraju imati potpisanu saglasnost najmanje jednog roditelja ili staratelja.</li>
+        <li>Za vožnju kartova za odrasle potrebna je visina od najmanje 160 cm, a mlađi voze Junior karting.</li>
+        <li>Obavezno je poštovati signalizaciju na stazi i upute instruktora, jer se u suprotnom možete isključiti iz vožnje.</li>
+        <li>Parking za goste je besplatan i čuvan.</li>
+      </ul>
+      <p>
+        Cjelovita pravila ponašanja i prijave pročitajte na stranici
+        <a href="https://kart.rs/pravila-staze/">Pravila staze</a>, a više o samom kartodromu
+        na <a href="https://kart.rs/kartodrom/">stranici kartodroma</a>.
+      </p>
+    </section>
+
+    <section id="vrijeme-i-mjesto">
+      <h2>Vrijeme, mjesto i prijava</h2>
+      <p>
+        <strong>Datum:</strong> subota, 28. novembar 2026.<br>
+        <strong>Vrijeme:</strong> od 11:00 do 15:00 sati<br>
+        <strong>Mjesto:</strong> Autokomerc Karting Centar, Svetog Save 84C, Surčin (Beograd)<br>
+        <strong>Radno vrijeme staze:</strong> vikendom od 10:00 do 22:00 sata
+      </p>
+
+      <h3>Kako se prijaviti</h3>
+      <p>Prijava se vrši putem e-pošte ili telefona, u nekoliko koraka:</p>
+      <ol>
+        <li>Popunite obrazac ispod kao podsjetnik na podatke koje trebate navesti.</li>
+        <li>Pošaljite e-poruku na
+          <a href="mailto:office@kart.rs">office@kart.rs</a>
+          ili nazovite +381 63 325 733.</li>
+        <li>Navedite ime i prezime, kategoriju vožnje (odrasli ili Junior) i željeni termin.</li>
+        <li>Prijave se primaju do <strong>23. novembra 2026.</strong>, a potvrdu termina dobijate odgovorom organizatora.</li>
+        <li>Na dan trke dođite petnaestak minuta ranije radi potpisivanja saglasnosti i saslušanja instrukcija.</li>
+      </ol>
+
+      <h3>Obrazac za pripremu prijave</h3>
+      <p>Obrazac služi samo kao podsjetnik; podaci se ne šalju.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Podaci o učesniku</legend>
+
+          <div class="polje">
+            <label for="ime">Ime i prezime:</label><br>
+            <input type="text" id="ime" name="ime" placeholder="npr. Emir Delić">
+          </div>
+
+          <div class="polje">
+            <p>Kategorija vožnje:</p>
+            <input type="radio" id="kat-odrasli" name="kategorija" value="odrasli" checked>
+            <label for="kat-odrasli">Odrasli (visina najmanje 160 cm)</label><br>
+            <input type="radio" id="kat-junior" name="kategorija" value="junior">
+            <label for="kat-junior">Junior</label>
+          </div>
+
+          <div class="polje">
+            <label>Željeni termin:</label><br>
+            <select>
+              <option value="11">11:00</option>
+              <option value="12">12:00</option>
+              <option value="13">13:00</option>
+              <option value="14">14:00</option>
+            </select>
+          </div>
+
+          <div class="polje">
+            <input type="checkbox" id="saglasnost" name="saglasnost">
+            <label for="saglasnost">Maloljetan/na sam i imam saglasnost roditelja ili staratelja</label>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+</body>
+</html>
