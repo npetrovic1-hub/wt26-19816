@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+#linkovi{
+  padding-bottom: 50px;
+}
+#meni {
+  margin: 0 0 20px 0;
+  padding: 0;        
+}
+
+#meni li {
+  float: left;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+#meni a {
+  color: white;
+  background-color: #19bc34;
+  padding: 20px;
+  border: 2px solid #10550d;
+  width: 200px;
+  text-align: center;
+}
+
+#meni a:hover {
+  color: #000000;
+  background-color: #f20505;
+  border-color: #000000;
+}
+
+h1 {
+  clear: both;
+}
+
+.odjeljak {
+  color: white;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  background-color: #2a5e42;
+  border-left: 5px solid #123c1e;
+}

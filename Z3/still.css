@@ -1,0 +1,10 @@
+.kocka{
+    padding: 5%;
+    border: 5px solid black;
+}
+#glavni{
+    color: red;
+}
+#preporuceni{
+    background-color: aqua;
+}
