@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obavijest</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<h1>Nova obavijest</h1>
+
+<div>
+  <label>Naslov:<br><input type="text" id="naslov"></label>
+</div>
+<br>
+<div>
+  <label>Tekst:<br><textarea id="tekst" rows="4" cols="30"></textarea></label>
+</div>
+<br>
+<div>
+  <label><input type="radio" name="kategorija" value="informacija" checked> Informacija</label>
+  <label><input type="radio" name="kategorija" value="vazno"> Važno</label>
+</div>
+<br>
+<button id="dugme-pregled">Pregled</button>
+<button id="dugme-reset">Vrati formu</button>
+
+<p id="greska"></p>
+
+<div id="pregled">
+  <h2 id="p-naslov">(nema pregleda)</h2>
+  <p id="p-tekst"><span id="broj">0</span></p>
+  <p id="p-kategorija"></p>
+</div>
+
+</body>
+</html>

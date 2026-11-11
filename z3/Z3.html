@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<h1>Evidencija troškova</h1>
+
+<div>
+  <label>Naziv: <input type="text" id="naziv"></label>
+  <label>Iznos (KM): <input type="text" id="iznos"></label>
+  <button id="dodaj">Dodaj</button>
+</div>
+<p id="greska"></p>
+
+<table>
+  <thead>
+    <tr><th>Naziv</th><th class="iznos">Iznos (KM)</th></tr>
+  </thead>
+  <tbody id="redovi">
+    <tr><td>Kafa</td><td class="iznos">3.50</td></tr>
+    <tr><td>Prevoz</td><td class="iznos">1.80</td></tr>
+    <tr><td>Sendvič</td><td class="iznos">4.20</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><th id="broj-stavki"></th><th class="iznos" id="zbir"></th></tr>
+  </tfoot>
+</table>
+</body>
+</html>
